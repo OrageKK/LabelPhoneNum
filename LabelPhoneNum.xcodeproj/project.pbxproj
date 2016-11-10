@@ -1,0 +1,927 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D666B85226C2CAB9E497027 /* libPods-LabelPhoneNumTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B66514235ABE29103F35AE3 /* libPods-LabelPhoneNumTests.a */; };
+		1AD0234D1DD457C500EF1480 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0234C1DD457C500EF1480 /* main.m */; };
+		1AD023501DD457C500EF1480 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0234F1DD457C500EF1480 /* AppDelegate.m */; };
+		1AD023531DD457C500EF1480 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023521DD457C500EF1480 /* ViewController.m */; };
+		1AD023561DD457C500EF1480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD023541DD457C500EF1480 /* Main.storyboard */; };
+		1AD023581DD457C500EF1480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD023571DD457C500EF1480 /* Assets.xcassets */; };
+		1AD0235B1DD457C500EF1480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD023591DD457C500EF1480 /* LaunchScreen.storyboard */; };
+		1AD023661DD457C500EF1480 /* LabelPhoneNumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023651DD457C500EF1480 /* LabelPhoneNumTests.m */; };
+		1AD023711DD457C500EF1480 /* LabelPhoneNumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023701DD457C500EF1480 /* LabelPhoneNumUITests.m */; };
+		1AD023B61DD4672700EF1480 /* YYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023841DD4672700EF1480 /* YYTextContainerView.m */; };
+		1AD023B71DD4672700EF1480 /* YYTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023861DD4672700EF1480 /* YYTextDebugOption.m */; };
+		1AD023B81DD4672700EF1480 /* YYTextEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023881DD4672700EF1480 /* YYTextEffectWindow.m */; };
+		1AD023B91DD4672700EF1480 /* YYTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0238A1DD4672700EF1480 /* YYTextInput.m */; };
+		1AD023BA1DD4672700EF1480 /* YYTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0238C1DD4672700EF1480 /* YYTextKeyboardManager.m */; };
+		1AD023BB1DD4672700EF1480 /* YYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0238E1DD4672700EF1480 /* YYTextLayout.m */; };
+		1AD023BC1DD4672700EF1480 /* YYTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023901DD4672700EF1480 /* YYTextLine.m */; };
+		1AD023BD1DD4672700EF1480 /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023921DD4672700EF1480 /* YYTextMagnifier.m */; };
+		1AD023BE1DD4672700EF1480 /* YYTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023941DD4672700EF1480 /* YYTextSelectionView.m */; };
+		1AD023BF1DD4672700EF1480 /* YYTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023971DD4672700EF1480 /* YYTextArchiver.m */; };
+		1AD023C01DD4672700EF1480 /* YYTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023991DD4672700EF1480 /* YYTextAttribute.m */; };
+		1AD023C11DD4672700EF1480 /* YYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0239B1DD4672700EF1480 /* YYTextParser.m */; };
+		1AD023C21DD4672700EF1480 /* YYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0239D1DD4672700EF1480 /* YYTextRubyAnnotation.m */; };
+		1AD023C31DD4672700EF1480 /* YYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0239F1DD4672700EF1480 /* YYTextRunDelegate.m */; };
+		1AD023C41DD4672700EF1480 /* NSAttributedString+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023A21DD4672700EF1480 /* NSAttributedString+YYText.m */; };
+		1AD023C51DD4672700EF1480 /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023A41DD4672700EF1480 /* NSParagraphStyle+YYText.m */; };
+		1AD023C61DD4672700EF1480 /* UIPasteboard+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023A61DD4672700EF1480 /* UIPasteboard+YYText.m */; };
+		1AD023C71DD4672700EF1480 /* UIView+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023A81DD4672700EF1480 /* UIView+YYText.m */; };
+		1AD023C81DD4672700EF1480 /* YYTextAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023AA1DD4672700EF1480 /* YYTextAsyncLayer.m */; };
+		1AD023C91DD4672700EF1480 /* YYTextTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023AC1DD4672700EF1480 /* YYTextTransaction.m */; };
+		1AD023CA1DD4672700EF1480 /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023AE1DD4672700EF1480 /* YYTextUtilities.m */; };
+		1AD023CB1DD4672700EF1480 /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023B01DD4672700EF1480 /* YYTextWeakProxy.m */; };
+		1AD023CC1DD4672700EF1480 /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023B21DD4672700EF1480 /* YYLabel.m */; };
+		1AD023CD1DD4672700EF1480 /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD023B51DD4672700EF1480 /* YYTextView.m */; };
+		1AF1F5411DD4859500FB0290 /* CallPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF1F5401DD4859500FB0290 /* CallPhone.m */; };
+		1AF1F5441DD486F100FB0290 /* NSString+stringDeleString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF1F5431DD486F100FB0290 /* NSString+stringDeleString.m */; };
+		A25F4943EC3A6005367C6879 /* libPods-LabelPhoneNum.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAC6370836AB19E47F0B430 /* libPods-LabelPhoneNum.a */; };
+		FA95C745C37FC1AAB99DDCEB /* libPods-LabelPhoneNumUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4CFE54CB655CFE3143441D /* libPods-LabelPhoneNumUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AD023621DD457C500EF1480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD023401DD457C500EF1480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD023471DD457C500EF1480;
+			remoteInfo = LabelPhoneNum;
+		};
+		1AD0236D1DD457C500EF1480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD023401DD457C500EF1480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD023471DD457C500EF1480;
+			remoteInfo = LabelPhoneNum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AD023481DD457C500EF1480 /* LabelPhoneNum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelPhoneNum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD0234C1DD457C500EF1480 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AD0234E1DD457C500EF1480 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AD0234F1DD457C500EF1480 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AD023511DD457C500EF1480 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1AD023521DD457C500EF1480 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1AD023551DD457C500EF1480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AD023571DD457C500EF1480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AD0235A1DD457C500EF1480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AD0235C1DD457C500EF1480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD023611DD457C500EF1480 /* LabelPhoneNumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelPhoneNumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD023651DD457C500EF1480 /* LabelPhoneNumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelPhoneNumTests.m; sourceTree = "<group>"; };
+		1AD023671DD457C500EF1480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD0236C1DD457C500EF1480 /* LabelPhoneNumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelPhoneNumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD023701DD457C500EF1480 /* LabelPhoneNumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelPhoneNumUITests.m; sourceTree = "<group>"; };
+		1AD023721DD457C500EF1480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD023831DD4672700EF1480 /* YYTextContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextContainerView.h; sourceTree = "<group>"; };
+		1AD023841DD4672700EF1480 /* YYTextContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextContainerView.m; sourceTree = "<group>"; };
+		1AD023851DD4672700EF1480 /* YYTextDebugOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextDebugOption.h; sourceTree = "<group>"; };
+		1AD023861DD4672700EF1480 /* YYTextDebugOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextDebugOption.m; sourceTree = "<group>"; };
+		1AD023871DD4672700EF1480 /* YYTextEffectWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextEffectWindow.h; sourceTree = "<group>"; };
+		1AD023881DD4672700EF1480 /* YYTextEffectWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextEffectWindow.m; sourceTree = "<group>"; };
+		1AD023891DD4672700EF1480 /* YYTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextInput.h; sourceTree = "<group>"; };
+		1AD0238A1DD4672700EF1480 /* YYTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextInput.m; sourceTree = "<group>"; };
+		1AD0238B1DD4672700EF1480 /* YYTextKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextKeyboardManager.h; sourceTree = "<group>"; };
+		1AD0238C1DD4672700EF1480 /* YYTextKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextKeyboardManager.m; sourceTree = "<group>"; };
+		1AD0238D1DD4672700EF1480 /* YYTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLayout.h; sourceTree = "<group>"; };
+		1AD0238E1DD4672700EF1480 /* YYTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLayout.m; sourceTree = "<group>"; };
+		1AD0238F1DD4672700EF1480 /* YYTextLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLine.h; sourceTree = "<group>"; };
+		1AD023901DD4672700EF1480 /* YYTextLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLine.m; sourceTree = "<group>"; };
+		1AD023911DD4672700EF1480 /* YYTextMagnifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextMagnifier.h; sourceTree = "<group>"; };
+		1AD023921DD4672700EF1480 /* YYTextMagnifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextMagnifier.m; sourceTree = "<group>"; };
+		1AD023931DD4672700EF1480 /* YYTextSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextSelectionView.h; sourceTree = "<group>"; };
+		1AD023941DD4672700EF1480 /* YYTextSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextSelectionView.m; sourceTree = "<group>"; };
+		1AD023961DD4672700EF1480 /* YYTextArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextArchiver.h; sourceTree = "<group>"; };
+		1AD023971DD4672700EF1480 /* YYTextArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextArchiver.m; sourceTree = "<group>"; };
+		1AD023981DD4672700EF1480 /* YYTextAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAttribute.h; sourceTree = "<group>"; };
+		1AD023991DD4672700EF1480 /* YYTextAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAttribute.m; sourceTree = "<group>"; };
+		1AD0239A1DD4672700EF1480 /* YYTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextParser.h; sourceTree = "<group>"; };
+		1AD0239B1DD4672700EF1480 /* YYTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextParser.m; sourceTree = "<group>"; };
+		1AD0239C1DD4672700EF1480 /* YYTextRubyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRubyAnnotation.h; sourceTree = "<group>"; };
+		1AD0239D1DD4672700EF1480 /* YYTextRubyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRubyAnnotation.m; sourceTree = "<group>"; };
+		1AD0239E1DD4672700EF1480 /* YYTextRunDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRunDelegate.h; sourceTree = "<group>"; };
+		1AD0239F1DD4672700EF1480 /* YYTextRunDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRunDelegate.m; sourceTree = "<group>"; };
+		1AD023A11DD4672700EF1480 /* NSAttributedString+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+YYText.h"; sourceTree = "<group>"; };
+		1AD023A21DD4672700EF1480 /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+YYText.m"; sourceTree = "<group>"; };
+		1AD023A31DD4672700EF1480 /* NSParagraphStyle+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSParagraphStyle+YYText.h"; sourceTree = "<group>"; };
+		1AD023A41DD4672700EF1480 /* NSParagraphStyle+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSParagraphStyle+YYText.m"; sourceTree = "<group>"; };
+		1AD023A51DD4672700EF1480 /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+YYText.h"; sourceTree = "<group>"; };
+		1AD023A61DD4672700EF1480 /* UIPasteboard+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+YYText.m"; sourceTree = "<group>"; };
+		1AD023A71DD4672700EF1480 /* UIView+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYText.h"; sourceTree = "<group>"; };
+		1AD023A81DD4672700EF1480 /* UIView+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYText.m"; sourceTree = "<group>"; };
+		1AD023A91DD4672700EF1480 /* YYTextAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAsyncLayer.h; sourceTree = "<group>"; };
+		1AD023AA1DD4672700EF1480 /* YYTextAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAsyncLayer.m; sourceTree = "<group>"; };
+		1AD023AB1DD4672700EF1480 /* YYTextTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextTransaction.h; sourceTree = "<group>"; };
+		1AD023AC1DD4672700EF1480 /* YYTextTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextTransaction.m; sourceTree = "<group>"; };
+		1AD023AD1DD4672700EF1480 /* YYTextUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextUtilities.h; sourceTree = "<group>"; };
+		1AD023AE1DD4672700EF1480 /* YYTextUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextUtilities.m; sourceTree = "<group>"; };
+		1AD023AF1DD4672700EF1480 /* YYTextWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextWeakProxy.h; sourceTree = "<group>"; };
+		1AD023B01DD4672700EF1480 /* YYTextWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextWeakProxy.m; sourceTree = "<group>"; };
+		1AD023B11DD4672700EF1480 /* YYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLabel.h; sourceTree = "<group>"; };
+		1AD023B21DD4672700EF1480 /* YYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLabel.m; sourceTree = "<group>"; };
+		1AD023B31DD4672700EF1480 /* YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYText.h; sourceTree = "<group>"; };
+		1AD023B41DD4672700EF1480 /* YYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextView.h; sourceTree = "<group>"; };
+		1AD023B51DD4672700EF1480 /* YYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
+		1AF1F53F1DD4859500FB0290 /* CallPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallPhone.h; sourceTree = "<group>"; };
+		1AF1F5401DD4859500FB0290 /* CallPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallPhone.m; sourceTree = "<group>"; };
+		1AF1F5421DD486F100FB0290 /* NSString+stringDeleString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+stringDeleString.h"; sourceTree = "<group>"; };
+		1AF1F5431DD486F100FB0290 /* NSString+stringDeleString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+stringDeleString.m"; sourceTree = "<group>"; };
+		4B66514235ABE29103F35AE3 /* libPods-LabelPhoneNumTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LabelPhoneNumTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		684ADAAF83557C1F26B59CAF /* Pods-LabelPhoneNumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelPhoneNumUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LabelPhoneNumUITests/Pods-LabelPhoneNumUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F9523BC71430064AFA7E5DF /* Pods-LabelPhoneNum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelPhoneNum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LabelPhoneNum/Pods-LabelPhoneNum.debug.xcconfig"; sourceTree = "<group>"; };
+		A5FD510830AB66F85587F523 /* Pods-LabelPhoneNum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelPhoneNum.release.xcconfig"; path = "Pods/Target Support Files/Pods-LabelPhoneNum/Pods-LabelPhoneNum.release.xcconfig"; sourceTree = "<group>"; };
+		A80FB0A2E2B4634AAAC02F07 /* Pods-LabelPhoneNumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelPhoneNumUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LabelPhoneNumUITests/Pods-LabelPhoneNumUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC4CFE54CB655CFE3143441D /* libPods-LabelPhoneNumUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LabelPhoneNumUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FEA364DAC8CD0F44200155 /* Pods-LabelPhoneNumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelPhoneNumTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LabelPhoneNumTests/Pods-LabelPhoneNumTests.release.xcconfig"; sourceTree = "<group>"; };
+		ECF03E3743E4292A88387E3F /* Pods-LabelPhoneNumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelPhoneNumTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LabelPhoneNumTests/Pods-LabelPhoneNumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBAC6370836AB19E47F0B430 /* libPods-LabelPhoneNum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LabelPhoneNum.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AD023451DD457C500EF1480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25F4943EC3A6005367C6879 /* libPods-LabelPhoneNum.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD0235E1DD457C500EF1480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D666B85226C2CAB9E497027 /* libPods-LabelPhoneNumTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD023691DD457C500EF1480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA95C745C37FC1AAB99DDCEB /* libPods-LabelPhoneNumUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AD0233F1DD457C500EF1480 = {
+			isa = PBXGroup;
+			children = (
+				1AD0234A1DD457C500EF1480 /* LabelPhoneNum */,
+				1AD023641DD457C500EF1480 /* LabelPhoneNumTests */,
+				1AD0236F1DD457C500EF1480 /* LabelPhoneNumUITests */,
+				1AD023491DD457C500EF1480 /* Products */,
+				C965006478AB14E33498D8AF /* Pods */,
+				CD17D1DCD4EA4531B0675F7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AD023491DD457C500EF1480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD023481DD457C500EF1480 /* LabelPhoneNum.app */,
+				1AD023611DD457C500EF1480 /* LabelPhoneNumTests.xctest */,
+				1AD0236C1DD457C500EF1480 /* LabelPhoneNumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AD0234A1DD457C500EF1480 /* LabelPhoneNum */ = {
+			isa = PBXGroup;
+			children = (
+				1AD0234E1DD457C500EF1480 /* AppDelegate.h */,
+				1AD0234F1DD457C500EF1480 /* AppDelegate.m */,
+				1AD023511DD457C500EF1480 /* ViewController.h */,
+				1AD023521DD457C500EF1480 /* ViewController.m */,
+				1AF1F5421DD486F100FB0290 /* NSString+stringDeleString.h */,
+				1AF1F5431DD486F100FB0290 /* NSString+stringDeleString.m */,
+				1AF1F53F1DD4859500FB0290 /* CallPhone.h */,
+				1AF1F5401DD4859500FB0290 /* CallPhone.m */,
+				1AD023541DD457C500EF1480 /* Main.storyboard */,
+				1AD023571DD457C500EF1480 /* Assets.xcassets */,
+				1AD023801DD4672700EF1480 /* Framework */,
+				1AD023591DD457C500EF1480 /* LaunchScreen.storyboard */,
+				1AD0235C1DD457C500EF1480 /* Info.plist */,
+				1AD0234B1DD457C500EF1480 /* Supporting Files */,
+			);
+			path = LabelPhoneNum;
+			sourceTree = "<group>";
+		};
+		1AD0234B1DD457C500EF1480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AD0234C1DD457C500EF1480 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AD023641DD457C500EF1480 /* LabelPhoneNumTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD023651DD457C500EF1480 /* LabelPhoneNumTests.m */,
+				1AD023671DD457C500EF1480 /* Info.plist */,
+			);
+			path = LabelPhoneNumTests;
+			sourceTree = "<group>";
+		};
+		1AD0236F1DD457C500EF1480 /* LabelPhoneNumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD023701DD457C500EF1480 /* LabelPhoneNumUITests.m */,
+				1AD023721DD457C500EF1480 /* Info.plist */,
+			);
+			path = LabelPhoneNumUITests;
+			sourceTree = "<group>";
+		};
+		1AD023801DD4672700EF1480 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				1AD023811DD4672700EF1480 /* YYText */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		1AD023811DD4672700EF1480 /* YYText */ = {
+			isa = PBXGroup;
+			children = (
+				1AD023821DD4672700EF1480 /* Component */,
+				1AD023951DD4672700EF1480 /* String */,
+				1AD023A01DD4672700EF1480 /* Utility */,
+				1AD023B11DD4672700EF1480 /* YYLabel.h */,
+				1AD023B21DD4672700EF1480 /* YYLabel.m */,
+				1AD023B31DD4672700EF1480 /* YYText.h */,
+				1AD023B41DD4672700EF1480 /* YYTextView.h */,
+				1AD023B51DD4672700EF1480 /* YYTextView.m */,
+			);
+			path = YYText;
+			sourceTree = "<group>";
+		};
+		1AD023821DD4672700EF1480 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				1AD023831DD4672700EF1480 /* YYTextContainerView.h */,
+				1AD023841DD4672700EF1480 /* YYTextContainerView.m */,
+				1AD023851DD4672700EF1480 /* YYTextDebugOption.h */,
+				1AD023861DD4672700EF1480 /* YYTextDebugOption.m */,
+				1AD023871DD4672700EF1480 /* YYTextEffectWindow.h */,
+				1AD023881DD4672700EF1480 /* YYTextEffectWindow.m */,
+				1AD023891DD4672700EF1480 /* YYTextInput.h */,
+				1AD0238A1DD4672700EF1480 /* YYTextInput.m */,
+				1AD0238B1DD4672700EF1480 /* YYTextKeyboardManager.h */,
+				1AD0238C1DD4672700EF1480 /* YYTextKeyboardManager.m */,
+				1AD0238D1DD4672700EF1480 /* YYTextLayout.h */,
+				1AD0238E1DD4672700EF1480 /* YYTextLayout.m */,
+				1AD0238F1DD4672700EF1480 /* YYTextLine.h */,
+				1AD023901DD4672700EF1480 /* YYTextLine.m */,
+				1AD023911DD4672700EF1480 /* YYTextMagnifier.h */,
+				1AD023921DD4672700EF1480 /* YYTextMagnifier.m */,
+				1AD023931DD4672700EF1480 /* YYTextSelectionView.h */,
+				1AD023941DD4672700EF1480 /* YYTextSelectionView.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		1AD023951DD4672700EF1480 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				1AD023961DD4672700EF1480 /* YYTextArchiver.h */,
+				1AD023971DD4672700EF1480 /* YYTextArchiver.m */,
+				1AD023981DD4672700EF1480 /* YYTextAttribute.h */,
+				1AD023991DD4672700EF1480 /* YYTextAttribute.m */,
+				1AD0239A1DD4672700EF1480 /* YYTextParser.h */,
+				1AD0239B1DD4672700EF1480 /* YYTextParser.m */,
+				1AD0239C1DD4672700EF1480 /* YYTextRubyAnnotation.h */,
+				1AD0239D1DD4672700EF1480 /* YYTextRubyAnnotation.m */,
+				1AD0239E1DD4672700EF1480 /* YYTextRunDelegate.h */,
+				1AD0239F1DD4672700EF1480 /* YYTextRunDelegate.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		1AD023A01DD4672700EF1480 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1AD023A11DD4672700EF1480 /* NSAttributedString+YYText.h */,
+				1AD023A21DD4672700EF1480 /* NSAttributedString+YYText.m */,
+				1AD023A31DD4672700EF1480 /* NSParagraphStyle+YYText.h */,
+				1AD023A41DD4672700EF1480 /* NSParagraphStyle+YYText.m */,
+				1AD023A51DD4672700EF1480 /* UIPasteboard+YYText.h */,
+				1AD023A61DD4672700EF1480 /* UIPasteboard+YYText.m */,
+				1AD023A71DD4672700EF1480 /* UIView+YYText.h */,
+				1AD023A81DD4672700EF1480 /* UIView+YYText.m */,
+				1AD023A91DD4672700EF1480 /* YYTextAsyncLayer.h */,
+				1AD023AA1DD4672700EF1480 /* YYTextAsyncLayer.m */,
+				1AD023AB1DD4672700EF1480 /* YYTextTransaction.h */,
+				1AD023AC1DD4672700EF1480 /* YYTextTransaction.m */,
+				1AD023AD1DD4672700EF1480 /* YYTextUtilities.h */,
+				1AD023AE1DD4672700EF1480 /* YYTextUtilities.m */,
+				1AD023AF1DD4672700EF1480 /* YYTextWeakProxy.h */,
+				1AD023B01DD4672700EF1480 /* YYTextWeakProxy.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C965006478AB14E33498D8AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F9523BC71430064AFA7E5DF /* Pods-LabelPhoneNum.debug.xcconfig */,
+				A5FD510830AB66F85587F523 /* Pods-LabelPhoneNum.release.xcconfig */,
+				ECF03E3743E4292A88387E3F /* Pods-LabelPhoneNumTests.debug.xcconfig */,
+				C4FEA364DAC8CD0F44200155 /* Pods-LabelPhoneNumTests.release.xcconfig */,
+				684ADAAF83557C1F26B59CAF /* Pods-LabelPhoneNumUITests.debug.xcconfig */,
+				A80FB0A2E2B4634AAAC02F07 /* Pods-LabelPhoneNumUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD17D1DCD4EA4531B0675F7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBAC6370836AB19E47F0B430 /* libPods-LabelPhoneNum.a */,
+				4B66514235ABE29103F35AE3 /* libPods-LabelPhoneNumTests.a */,
+				AC4CFE54CB655CFE3143441D /* libPods-LabelPhoneNumUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AD023471DD457C500EF1480 /* LabelPhoneNum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD023751DD457C500EF1480 /* Build configuration list for PBXNativeTarget "LabelPhoneNum" */;
+			buildPhases = (
+				F0C4FE69FA5CF27AED0EB473 /* [CP] Check Pods Manifest.lock */,
+				1AD023441DD457C500EF1480 /* Sources */,
+				1AD023451DD457C500EF1480 /* Frameworks */,
+				1AD023461DD457C500EF1480 /* Resources */,
+				15CB45F8DD818D011EB185C8 /* [CP] Embed Pods Frameworks */,
+				B9F0D5398D9B6F4E8F9DFF1C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabelPhoneNum;
+			productName = LabelPhoneNum;
+			productReference = 1AD023481DD457C500EF1480 /* LabelPhoneNum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AD023601DD457C500EF1480 /* LabelPhoneNumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD023781DD457C500EF1480 /* Build configuration list for PBXNativeTarget "LabelPhoneNumTests" */;
+			buildPhases = (
+				4608343AF556C2C40D50D401 /* [CP] Check Pods Manifest.lock */,
+				1AD0235D1DD457C500EF1480 /* Sources */,
+				1AD0235E1DD457C500EF1480 /* Frameworks */,
+				1AD0235F1DD457C500EF1480 /* Resources */,
+				1921BB996E7AE8128BD6E689 /* [CP] Embed Pods Frameworks */,
+				B9B6838AEF274D050903E2CB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD023631DD457C500EF1480 /* PBXTargetDependency */,
+			);
+			name = LabelPhoneNumTests;
+			productName = LabelPhoneNumTests;
+			productReference = 1AD023611DD457C500EF1480 /* LabelPhoneNumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AD0236B1DD457C500EF1480 /* LabelPhoneNumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD0237B1DD457C500EF1480 /* Build configuration list for PBXNativeTarget "LabelPhoneNumUITests" */;
+			buildPhases = (
+				F2457D24558D00A0F91B92BE /* [CP] Check Pods Manifest.lock */,
+				1AD023681DD457C500EF1480 /* Sources */,
+				1AD023691DD457C500EF1480 /* Frameworks */,
+				1AD0236A1DD457C500EF1480 /* Resources */,
+				F256923E7899BF7569CD2639 /* [CP] Embed Pods Frameworks */,
+				381C6CC0225D290798E7B9F8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD0236E1DD457C500EF1480 /* PBXTargetDependency */,
+			);
+			name = LabelPhoneNumUITests;
+			productName = LabelPhoneNumUITests;
+			productReference = 1AD0236C1DD457C500EF1480 /* LabelPhoneNumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AD023401DD457C500EF1480 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = jiayou9;
+				TargetAttributes = {
+					1AD023471DD457C500EF1480 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PHM8Y5DP28;
+						ProvisioningStyle = Automatic;
+					};
+					1AD023601DD457C500EF1480 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AD023471DD457C500EF1480;
+					};
+					1AD0236B1DD457C500EF1480 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AD023471DD457C500EF1480;
+					};
+				};
+			};
+			buildConfigurationList = 1AD023431DD457C500EF1480 /* Build configuration list for PBXProject "LabelPhoneNum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AD0233F1DD457C500EF1480;
+			productRefGroup = 1AD023491DD457C500EF1480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AD023471DD457C500EF1480 /* LabelPhoneNum */,
+				1AD023601DD457C500EF1480 /* LabelPhoneNumTests */,
+				1AD0236B1DD457C500EF1480 /* LabelPhoneNumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD023461DD457C500EF1480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD0235B1DD457C500EF1480 /* LaunchScreen.storyboard in Resources */,
+				1AD023581DD457C500EF1480 /* Assets.xcassets in Resources */,
+				1AD023561DD457C500EF1480 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD0235F1DD457C500EF1480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD0236A1DD457C500EF1480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15CB45F8DD818D011EB185C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LabelPhoneNum/Pods-LabelPhoneNum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1921BB996E7AE8128BD6E689 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LabelPhoneNumTests/Pods-LabelPhoneNumTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		381C6CC0225D290798E7B9F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LabelPhoneNumUITests/Pods-LabelPhoneNumUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4608343AF556C2C40D50D401 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B6838AEF274D050903E2CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LabelPhoneNumTests/Pods-LabelPhoneNumTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F0D5398D9B6F4E8F9DFF1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LabelPhoneNum/Pods-LabelPhoneNum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C4FE69FA5CF27AED0EB473 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2457D24558D00A0F91B92BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F256923E7899BF7569CD2639 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LabelPhoneNumUITests/Pods-LabelPhoneNumUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD023441DD457C500EF1480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF1F5441DD486F100FB0290 /* NSString+stringDeleString.m in Sources */,
+				1AD023C51DD4672700EF1480 /* NSParagraphStyle+YYText.m in Sources */,
+				1AD023CD1DD4672700EF1480 /* YYTextView.m in Sources */,
+				1AD023C71DD4672700EF1480 /* UIView+YYText.m in Sources */,
+				1AD023CC1DD4672700EF1480 /* YYLabel.m in Sources */,
+				1AF1F5411DD4859500FB0290 /* CallPhone.m in Sources */,
+				1AD023BB1DD4672700EF1480 /* YYTextLayout.m in Sources */,
+				1AD023C31DD4672700EF1480 /* YYTextRunDelegate.m in Sources */,
+				1AD023C91DD4672700EF1480 /* YYTextTransaction.m in Sources */,
+				1AD023C01DD4672700EF1480 /* YYTextAttribute.m in Sources */,
+				1AD023BF1DD4672700EF1480 /* YYTextArchiver.m in Sources */,
+				1AD023C61DD4672700EF1480 /* UIPasteboard+YYText.m in Sources */,
+				1AD023BD1DD4672700EF1480 /* YYTextMagnifier.m in Sources */,
+				1AD023B71DD4672700EF1480 /* YYTextDebugOption.m in Sources */,
+				1AD023C21DD4672700EF1480 /* YYTextRubyAnnotation.m in Sources */,
+				1AD023BC1DD4672700EF1480 /* YYTextLine.m in Sources */,
+				1AD023BE1DD4672700EF1480 /* YYTextSelectionView.m in Sources */,
+				1AD023531DD457C500EF1480 /* ViewController.m in Sources */,
+				1AD023C41DD4672700EF1480 /* NSAttributedString+YYText.m in Sources */,
+				1AD023CA1DD4672700EF1480 /* YYTextUtilities.m in Sources */,
+				1AD023B61DD4672700EF1480 /* YYTextContainerView.m in Sources */,
+				1AD023C81DD4672700EF1480 /* YYTextAsyncLayer.m in Sources */,
+				1AD023501DD457C500EF1480 /* AppDelegate.m in Sources */,
+				1AD023CB1DD4672700EF1480 /* YYTextWeakProxy.m in Sources */,
+				1AD023C11DD4672700EF1480 /* YYTextParser.m in Sources */,
+				1AD0234D1DD457C500EF1480 /* main.m in Sources */,
+				1AD023BA1DD4672700EF1480 /* YYTextKeyboardManager.m in Sources */,
+				1AD023B81DD4672700EF1480 /* YYTextEffectWindow.m in Sources */,
+				1AD023B91DD4672700EF1480 /* YYTextInput.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD0235D1DD457C500EF1480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD023661DD457C500EF1480 /* LabelPhoneNumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD023681DD457C500EF1480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD023711DD457C500EF1480 /* LabelPhoneNumUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AD023631DD457C500EF1480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD023471DD457C500EF1480 /* LabelPhoneNum */;
+			targetProxy = 1AD023621DD457C500EF1480 /* PBXContainerItemProxy */;
+		};
+		1AD0236E1DD457C500EF1480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD023471DD457C500EF1480 /* LabelPhoneNum */;
+			targetProxy = 1AD0236D1DD457C500EF1480 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AD023541DD457C500EF1480 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD023551DD457C500EF1480 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AD023591DD457C500EF1480 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD0235A1DD457C500EF1480 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AD023731DD457C500EF1480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AD023741DD457C500EF1480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AD023761DD457C500EF1480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9523BC71430064AFA7E5DF /* Pods-LabelPhoneNum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PHM8Y5DP28;
+				INFOPLIST_FILE = LabelPhoneNum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayou9.LabelPhoneNum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AD023771DD457C500EF1480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FD510830AB66F85587F523 /* Pods-LabelPhoneNum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PHM8Y5DP28;
+				INFOPLIST_FILE = LabelPhoneNum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayou9.LabelPhoneNum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AD023791DD457C500EF1480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF03E3743E4292A88387E3F /* Pods-LabelPhoneNumTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LabelPhoneNumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayou9.LabelPhoneNumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelPhoneNum.app/LabelPhoneNum";
+			};
+			name = Debug;
+		};
+		1AD0237A1DD457C500EF1480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FEA364DAC8CD0F44200155 /* Pods-LabelPhoneNumTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LabelPhoneNumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayou9.LabelPhoneNumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelPhoneNum.app/LabelPhoneNum";
+			};
+			name = Release;
+		};
+		1AD0237C1DD457C500EF1480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684ADAAF83557C1F26B59CAF /* Pods-LabelPhoneNumUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LabelPhoneNumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayou9.LabelPhoneNumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LabelPhoneNum;
+			};
+			name = Debug;
+		};
+		1AD0237D1DD457C500EF1480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80FB0A2E2B4634AAAC02F07 /* Pods-LabelPhoneNumUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LabelPhoneNumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayou9.LabelPhoneNumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LabelPhoneNum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AD023431DD457C500EF1480 /* Build configuration list for PBXProject "LabelPhoneNum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD023731DD457C500EF1480 /* Debug */,
+				1AD023741DD457C500EF1480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD023751DD457C500EF1480 /* Build configuration list for PBXNativeTarget "LabelPhoneNum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD023761DD457C500EF1480 /* Debug */,
+				1AD023771DD457C500EF1480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD023781DD457C500EF1480 /* Build configuration list for PBXNativeTarget "LabelPhoneNumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD023791DD457C500EF1480 /* Debug */,
+				1AD0237A1DD457C500EF1480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD0237B1DD457C500EF1480 /* Build configuration list for PBXNativeTarget "LabelPhoneNumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD0237C1DD457C500EF1480 /* Debug */,
+				1AD0237D1DD457C500EF1480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AD023401DD457C500EF1480 /* Project object */;
+}
