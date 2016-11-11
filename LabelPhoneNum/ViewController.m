@@ -15,6 +15,8 @@
 @interface ViewController ()
 @property (nonatomic,strong) YYLabel *kflbl;
 @property (nonatomic,copy) NSString * phoneNum;
+// 要在出发呼叫功能前不被release需要强引用
+@property (nonatomic,strong) UIWebView *phoneCallWebView;
 @end
 
 #define KEFU @"收不到短信？ 请拨打客服"
@@ -26,7 +28,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"LabelPhoneNum";
     [self setupUI];
-    [self creatString:@"400-666-8888"];
+    [self creatString:@"010-53397335"];
 }
 #pragma mark - 创建可变字符串
 - (void)creatString:(NSString *)phoneNum {
@@ -63,14 +65,29 @@
 #warning 电话方法一
         [self telPhoneNum:phoneNum];
 #warning 电话方法二、三
-        [CallPhone callPhoneTwo:deleNum];
-        [CallPhone callPhoneThree:deleNum];
+//        [CallPhone callPhoneTwo:deleNum];
+//        [self callPhoneThree:deleNum];
+        
+        
+        
     };
     [text yy_setTextHighlight:highlight range:range9];
     
     self.kflbl.attributedText = text;
     
 }
+#pragma mark - 拨号方法三，会稍微慢于前两种方法
+- (void)callPhoneThree:(NSString *)phoneNum{
+    /*--------拨号方法三-----------*/
+    NSURL *phoneURL = [NSURL URLWithString:[NSString stringWithFormat:@"tel://%@",phoneNum]];
+    if ( !_phoneCallWebView ) {
+        
+        _phoneCallWebView = [[UIWebView alloc] initWithFrame:CGRectZero];// 这个webView只是一个后台的容易 不需要add到页面上来  效果跟方法二一样 但是这个方法是合法的
+    }
+    [_phoneCallWebView loadRequest:[NSURLRequest requestWithURL:phoneURL]];
+    
+}
+
 #pragma mark - 弹窗
 - (void)telPhoneNum:(NSString *)phoneNum {
     UIApplication *application = [UIApplication sharedApplication];

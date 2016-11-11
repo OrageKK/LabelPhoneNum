@@ -24,15 +24,22 @@
         [application openURL:[NSURL URLWithString:num2] options:@{} completionHandler:^(BOOL success) {}];
     
 }
-+(void)callPhoneThree:(NSString *)phoneNum{
-        /*--------拨号方法三-----------*/
-        NSURL *phoneURL = [NSURL URLWithString:[NSString stringWithFormat:@"tel:%@",phoneNum]];
-        UIWebView *phoneCallWebView = [[UIWebView alloc] initWithFrame:CGRectZero];
-        if ( !phoneCallWebView ) {
-    
-            phoneCallWebView = [[UIWebView alloc] initWithFrame:CGRectZero];// 这个webView只是一个后台的容易 不需要add到页面上来  效果跟方法二一样 但是这个方法是合法的
-        }
-        [phoneCallWebView loadRequest:[NSURLRequest requestWithURL:phoneURL]];
-    
-}
+
+#pragma mark - 此方法放到了ViewController中，因为需要一个强引用
+
+//+(void)callPhoneThree:(NSString *)phoneNum{
+//        /*--------拨号方法三-----------*/
+//        NSURL *phoneURL = [NSURL URLWithString:[NSString stringWithFormat:@"tel://%@",phoneNum]];
+//        UIWebView *phoneCallWebView = [[UIWebView alloc] init];
+//        if ( !phoneCallWebView ) {
+//    
+//            phoneCallWebView = [[UIWebView alloc] initWithFrame:CGRectZero];// 这个webView只是一个后台的容易 不需要add到页面上来  效果跟方法二一样 但是这个方法是合法的
+//        }
+//        [phoneCallWebView loadRequest:[NSURLRequest requestWithURL:phoneURL]];
+//
+//}
+
+
+
+
 @end
